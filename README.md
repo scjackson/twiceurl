@@ -1,9 +1,11 @@
-This is a URL shortener written in Flask that uses SQLite as a backend
+This is a URL shortener written in Flask that uses SQLite as a backend. I did not put much (really any) time into the front end other than to get it to work... So it's not the prettiest
 
 To run on Ubuntu:
 
-Install Flask:
+Install Dependencies:
 
+    sudo apt-get install python
+    sudo apt-get install sqlite3
     sudo apt-get install python-flask
     sudo apt-get install python-pip
     sudo pip install Flask --upgrade
