@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% block body %}
+
+	<div>
+		{{ full_url }} may be accessed using Twice URL with the following link:
+	</div>
+	<blockquote>
+		<strong>
+			{{ url_for('redirect_to_full_url', path=short_url, _external=True) }}
+		</strong>
+	</blockquote>
+
+{% endblock %}
