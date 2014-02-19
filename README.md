@@ -14,6 +14,7 @@ Install Dependencies:
 Clone repo and navigate to directory
 
 To start server:
+
     python twiceurl.py
 
 To populate cached id values (this is not necessary to successfully us the service. the idea is that this script would be executed by a cronjob to maintain a list of quickly accessible urls):
@@ -21,4 +22,5 @@ To populate cached id values (this is not necessary to successfully us the servi
     python manage.py populate
 
 To use the site locally:
+
     http://127.0.0.1:5000/
